@@ -16,12 +16,29 @@
 }
 
 /* Header  */
+.carousel-caption {
+    bottom: initial;
+    top: 50%;
+    transform: translateY(-50%);
+}
 
+.slider-image {
+    background-blend-mode: luminosity;
+}
 
 /* Body  */
-
 .bg-color {
     background-color: #289BDE;
+}
+
+.position-left {
+    position: absolute;
+    left: -40px;
+}
+
+.position-right {
+    position: absolute;
+    left: 65px;
 }
 
 /* Footer */

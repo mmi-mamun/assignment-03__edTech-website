@@ -34,27 +34,28 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto me-auto mb-2 mb-lg-0">
                         <li class="nav-item ms-3">
-                            <a class="nav-link active" aria-current="page" href="#home"> Home </a>
+                            <a class="nav-link active poppins" aria-current="page" href="#home"> Home </a>
                         </li>
                         <li class="nav-item ms-3">
-                            <a class="nav-link active" aria-current="page" href="#courses"> Courses </a>
+                            <a class="nav-link active poppins" aria-current="page" href="#courses"> Courses </a>
                         </li>
                         <li class="nav-item ms-3">
-                            <a class="nav-link active" aria-current="page" href="#deals"> Deals </a>
+                            <a class="nav-link active poppins" aria-current="page" href="#deals"> Deals </a>
                         </li>
                         <li class="nav-item ms-3">
-                            <a class="nav-link active" aria-current="page" href="#success"> Success </a>
+                            <a class="nav-link active poppins" aria-current="page" href="#success"> Success </a>
                         </li>
                         <li class="nav-item ms-3">
-                            <a class="nav-link active" aria-current="page" href="#about-us"> About </a>
+                            <a class="nav-link active poppins" aria-current="page" href="#about-us"> About </a>
                         </li>
                         <li class="nav-item ms-3">
-                            <a class="nav-link active" aria-current="page" href="#register"> Register </a>
+                            <a class="nav-link active poppins" aria-current="page" href="#register"> Register </a>
                         </li>
 
                     </ul>
-                    <form class="d-flex" role="register">
-                        <button class="btn btn-outline-info" type="submit">Register Now</button>
+                    <form class="d-flex">
+                        <button class="btn btn-outline-info" type="submit" data-bs-toggle="modal"
+                            data-bs-target="#modalform">Register Now</button>
                     </form>
                 </div>
             </div>
@@ -64,7 +65,7 @@
 
 
         <!-- Slider section start  -->
-        <section class="container" id="home">
+        <section class="container pt-5 mt-5" id="home">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -77,33 +78,34 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h1 class="display-2 fw-bold poppins">Get Started Digital Learning</h1>
-                            <p class="poppins">It is a long established fact that a reader will be distracted by the
-                                readable
-                                content of a page when looking at its layout.</p>
-                            <div class="btn bg-color poppins fw-bold px-4 mb-5 white">Get Started</div>
+                        <div class="carousel-caption d-md-block">
+                            <h1 class="display-2 fw-bold poppins text-dark fs-1">Get Started Digital Learning</h1>
+                            <p class="poppins text-dark my-5">“One of the most important areas we can develop as
+                                professionals
+                                is
+                                competence in accessing and sharing knowledge.” — Connie Malamed.</p>
+                            <div class="btn bg-color poppins fw-bold px-4 mb-1 white">Get Started</div>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="images/cover/cover-3.jpg" class="d-block w-100 alt=" ...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h1 class="display-2 fw-bold poppins">Get Started Digital Learning</h1>
-                            <p class="poppins">It is a long established fact that a reader will be distracted by the
-                                readable
-                                content of a page when looking at its layout.</p>
-                            <div class="btn bg-color poppins fw-bold px-4 mb-5 white">Get Started</div>
+                        <img src="images/cover/cover-2.jpg" class="d-block w-100 slider-image" alt=" ...">
+                        <div class="carousel-caption d-md-block">
+                            <h1 class="display-2 fw-bold poppins text-dark fs-1">Get Started Digital Learning</h1>
+                            <p class="poppins text-dark my-5">“If you continue training the same way you’ve always
+                                trained,
+                                don’t
+                                expect to get better results.” — Jim Crapko.</p>
+                            <div class="btn bg-color poppins fw-bold px-4 mb-1 white">Get Started</div>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h1 class="display-2 fw-bold poppins mb-3">Get Started Digital Learning</h1>
-                            <p class="poppins mb-3">It is a long established fact that a reader will be distracted by
-                                the
-                                readable
-                                content of a page when looking at its layout.</p>
-                            <div class="btn bg-color poppins fw-bold px-4 mb-5 white">Get Started</div>
+                        <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-md-block">
+                            <h1 class="display-2 fw-bold poppins text-dark mb-3 fs-1">Get Started Digital Learning</h1>
+                            <p class="poppins my-5 text-dark">“To unlock the true potential of e-learning to train
+                                successful
+                                employees, it needs to be people-centered.” — Simon Greany.</p>
+                            <div class="btn bg-color poppins fw-bold px-4 mb-1 white">Get Started</div>
                         </div>
                     </div>
                 </div>
@@ -147,7 +149,8 @@
                         <div class="card mb-3" style="max-width: 540px;">
                             <div class="row g-0">
                                 <div class="col-md-4">
-                                    <img src="images/course/course-1.png" class="img-fluid rounded-start" alt="...">
+                                    <img src="images/course/course-1.png" class="img-fluid w-100 rounded-start"
+                                        alt="...">
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
@@ -165,7 +168,8 @@
                         <div class="card mb-3" style="max-width: 540px;">
                             <div class="row g-0">
                                 <div class="col-md-4">
-                                    <img src="images/course/course-2.png" class="img-fluid rounded-start" alt="...">
+                                    <img src="images/course/course-2.png" class="img-fluid w-100 rounded-start"
+                                        alt="...">
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
@@ -183,7 +187,8 @@
                         <div class="card mb-3" style="max-width: 540px;">
                             <div class="row g-0">
                                 <div class="col-md-4">
-                                    <img src="images/course/course-3.png" class="img-fluid rounded-start" alt="...">
+                                    <img src="images/course/course-3.png" class="img-fluid w-100 rounded-start"
+                                        alt="...">
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
@@ -201,7 +206,8 @@
                         <div class="card mb-3" style="max-width: 540px;">
                             <div class="row g-0">
                                 <div class="col-md-4">
-                                    <img src="images/course/course-4.png" class="img-fluid rounded-start" alt="...">
+                                    <img src="images/course/course-4.png" class="img-fluid w-100 rounded-start"
+                                        alt="...">
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
@@ -219,7 +225,8 @@
                         <div class="card mb-3" style="max-width: 540px;">
                             <div class="row g-0">
                                 <div class="col-md-4">
-                                    <img src="images/course/course-5.png" class="img-fluid rounded-start" alt="...">
+                                    <img src="images/course/course-5.png" class="img-fluid w-100 rounded-start"
+                                        alt="...">
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
@@ -237,7 +244,8 @@
                         <div class="card mb-3" style="max-width: 540px;">
                             <div class="row g-0">
                                 <div class="col-md-4">
-                                    <img src="images/course/course-6.png" class="img-fluid rounded-start" alt="...">
+                                    <img src="images/course/course-6.png" class="img-fluid w-100 rounded-start"
+                                        alt="...">
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
@@ -262,7 +270,7 @@
         <!-- article section end  -->
 
         <!-- E-Learning section start  -->
-        <section class="container my-5" id="deals">
+        <section class="container mx-auto my-5" id="deals">
             <div class="row d-flex align-items-center">
                 <div class="col-lg-6">
                     <img src="images/working.png" alt="" class="img-fluid">
@@ -270,12 +278,14 @@
                 <div class="col-lg-6 px-5">
                     <h1 class="poppins fw-bold">Explore The elearning
                         Institute</h1>
-                    <p class="poppins my-3 pe-5">There are many variations of passages of Lorem Ipsum available, but the
-                        majority have suffered alteration in some form, by injected humour, or
-                        randomised words which don't look even slightly believable. If you are going
-                        to use a passage of Lorem Ipsum, you need to be sure. <br> <br>
-                        Anything embarrassing hidden in the middle of text. All the Lorem Ipsum
-                        generators on the Internet tend to repeat predefined.</p>
+                    <p class="poppins my-3 pe-5">The eLearning Design & Training Development, Ontario College Graduate
+                        Certificate complements the practical skills of educational professionals by adding
+                        technology-based, online and mobile learning tools that can be effectively integrated into the
+                        learning and teaching environment. Learning management systems of today will be the key to
+                        unlocking a better educated student and employee in the future. <br><br>
+                        Students develop proficiency with industry-standard online learning tools including Articulate
+                        Storyline, LMS', Camtasia, Web Conferencing Applications; as well as e-learning, QA and AODA
+                        standards.</p>
 
                     <div class=" d-flex justify-content-between">
                         <div>
@@ -308,52 +318,101 @@
                         readable content of a page when looking at its layout</p>
                 </div>
                 <div class="col-lg-4">
-                    <button type="button" class="btn btn-light rounded px-4 ms-5">Register Now</button>
+                    <button type="button" class="btn btn-light rounded px-4 ms-5" data-bs-toggle="modal"
+                        data-bs-target="#modalform">Register Now</button>
                 </div>
             </div>
+
+            <!-- Modal section start -->
+            <!-- Modal Form -->
+            <div class="modal fade" id="modalform" tabindex="-1" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <!-- Login Form -->
+                        <form action="">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Register Form</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row mb-3 d-flex">
+                                    <div class="col-md-6">
+                                        <label for="Username">First Name<span class="text-danger">*</span></label>
+                                        <input type="text" name="firstname" class="form-control" id="firstname"
+                                            placeholder="Enter First Name">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="Username">Last Name<span class="text-danger">*</span></label>
+                                        <input type="text" name="lastname" class="form-control" id="lastname"
+                                            placeholder="Enter Last Name">
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="Username">Email<span class="text-danger">*</span></label>
+                                    <input type="email" name="email" class="form-control" id="email"
+                                        placeholder="Enter Email">
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="Password">Password<span class="text-danger">*</span></label>
+                                    <input type="password" name="password" class="form-control" id="Password"
+                                        placeholder="Enter Password">
+                                </div>
+                            </div>
+                            <div class="modal-footer pt-4">
+                                <button type="button" data-bs-dismiss="modal" aria-label="Close"
+                                    class="btn btn-success mx-auto w-100">Register Now</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal section end -->
 
         </section>
         <!-- Join section End  -->
 
         <!-- Student section start  -->
-        <section class="container my-5" id="success">
+        <section class="container mx-auto my-5" id="success">
             <div>
+
                 <h2 class="poppins fw-bold">Meet Our Successfull
                     Students</h2>
                 <p class="poppins">It is a long established fact that a reader will be distracted by the <br>
                     readable content of a page when looking at its layout.</p>
             </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-6 p-3 rounded">
+            <div class="row mx-auto">
+                <div class="col-lg-3 col-md-6 col-sm-12 p-3 rounded">
                     <img src="images/student/student-1.png" alt="" class="img-fluid">
                     <h4 class="poppins fw-bold mt-3">M MI Mamun</h4>
                     <p class="poppins">Junior Web Developer</p>
                 </div>
-                <div class="col-lg-3 col-md-6 p-3 rounded">
+                <div class="col-lg-3 col-md-6 col-sm-12 p-3 rounded">
                     <img src="images/student/student-2.png" alt="" class="img-fluid">
                     <h4 class="poppins fw-bold mt-3">Samira Akter</h4>
                     <p class="poppins">UIUX Designer</p>
                 </div>
-                <div class="col-lg-3 col-md-6 p-3 rounded">
+                <div class="col-lg-3 col-md-6 col-sm-12 p-3 rounded">
                     <img src="images/student/student-3.png" alt="" class="img-fluid">
                     <h4 class="poppins fw-bold mt-3">Tahsan Al Tasrif</h4>
                     <p class="poppins">Graphic Designer</p>
                 </div>
-                <div class="col-lg-3 col-md-6 p-3 rounded">
+                <div class="col-lg-3 col-md-6 col-sm-12 p-3 rounded">
                     <img src="images/student/student-4.png" alt="" class="img-fluid">
                     <h4 class="poppins fw-bold mt-3">Maysha Samiha</h4>
                     <p class="poppins">Motion Design</p>
                 </div>
             </div>
-            <div class="text-center">
+            <div class="text-center d-lg-block d-none">
                 <button type="button" class="btn bg-color rounded px-4 ms-5 white poppins">View All</button>
             </div>
         </section>
         <!-- Student section end  -->
 
-
         <!-- Feedback section Start  -->
-        <section class="container pt-5 mt-5" id="about-us">
+        <section class="container pt-5 mt-5 mx-auto" id="about-us">
+
             <div class="text-center mb-5">
                 <h2 class="poppins fw-bold text-center">Some Students Feedback</h2>
                 <p class="poppins text-center">It is a long established fact that a reader will be distracted by the
@@ -361,130 +420,155 @@
                     content of a page when looking at its layout.</p>
             </div>
 
-            <div class="row">
-                <div class="col-lg-6 my-5 px-5">
-                    <div class="d-flex align-items-center justify-content-between">
-                        <img src="images/comma.png" alt="" class="img-fluid">
-                        <p class="star-color"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                class="fa-regular fa-star"></i></p>
-                    </div>
-                    <div class="poppins py-3 pe-3">
-                        <p class="poppins">There is a consistent relationship with achievement in class that is
-                            considered by
-                            researchers to reflect the fact that good teaching should lead to good learning and higher
-                            levels of satisfaction.
-                            Individual teacher ratings over time are consistent if the person has not taken specific
-                            improvement steps or received support for development.</p>
-                    </div>
-                    <div class="d-flex align-items-center">
-                        <div>
-                            <img src="images/student/student-1.png" alt="" width="42" height="42"
-                                class="img-fluid img-thumbnail rounded-circle">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="row carousel-item active">
+                        <div class="row">
+                            <div class="col-md-6 my-3 p-3">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <img src="images/comma.png" alt="" class="img-fluid">
+                                    <p class="star-color"><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></p>
+                                </div>
+                                <div class="poppins py-3 pe-3">
+                                    <p class="poppins">There is a consistent relationship with achievement in class that
+                                        is
+                                        considered by
+                                        researchers to reflect the fact that good teaching should lead to good learning
+                                        and
+                                        higher
+                                        levels of satisfaction.</p>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <div>
+                                        <img src="images/student/student-1.png" alt="" width="42" height="42"
+                                            class="img-fluid img-thumbnail rounded-circle">
+                                    </div>
+
+                                    <div class="ps-3">
+                                        <small class="fw-bold poppins">M MI Mamun</small>
+                                        <br>
+                                        <small class="poppins">Web Depeloper</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 p-3 my-3 ">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <img src="images/comma.png" alt="" class="img-fluid">
+                                    <p class="star-color"><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></p>
+                                </div>
+                                <div class="poppins py-3 pe-3">
+                                    <p class="poppins">
+                                        Individual teacher ratings over time are consistent if the person has not taken
+                                        specific
+                                        improvement steps or received support for development.</p>
+                                </div>
+                                <div class="d-flex align-items-center my-3">
+                                    <div>
+                                        <img src="images/student/student-2.png" alt="" width="42" height="42"
+                                            class="img-fluid img-thumbnail rounded-circle">
+                                    </div>
+
+                                    <div class="ps-3">
+                                        <small class="fw-bold poppins">Samira Akter</small>
+                                        <br>
+                                        <small class="poppins">UI Designer</small>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
 
-                        <div class="ps-3">
-                            <small class="fw-bold poppins">M MI Mamun</small>
-                            <br>
-                            <small class="poppins">Web Depeloper</small>
+                    </div>
+                    <div class="carousel-item row">
+                        <div class="row">
+                            <div class="col-md-6 my-3 p-3">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <img src="images/comma.png" alt="" class="img-fluid">
+                                    <p class="star-color"><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></p>
+                                </div>
+                                <div class="poppins py-3 pe-3">
+                                    <p class="poppins">Individual teacher ratings over time are consistent if the person
+                                        has not taken
+                                        specific
+                                        improvement steps or received support for development.</p>
+                                </div>
+                                <div class="d-flex align-items-center my-3">
+                                    <div>
+                                        <img src="images/student/student-3.png" alt="" width="42" height="42"
+                                            class="img-fluid img-thumbnail rounded-circle">
+                                    </div>
+
+                                    <div class="ps-3">
+                                        <small class="fw-bold poppins">Tahsaan Al Tasrif</small>
+                                        <br>
+                                        <small class="poppins">Graphic Designer</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 my-3 p-3">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <img src="images/comma.png" alt="" class="img-fluid">
+                                    <p class="star-color"><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></p>
+                                </div>
+                                <div class="poppins py-3 pe-3">
+                                    <p class="poppins">There is a consistent relationship with achievement in class that
+                                        is
+                                        considered by
+                                        researchers to reflect the fact that good teaching should lead to good learning
+                                        and higher
+                                        levels of satisfaction.</p>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <div>
+                                        <img src="images/student/student-4.png" alt="" width="42" height="42"
+                                            class="img-fluid img-thumbnail rounded-circle">
+                                    </div>
+
+                                    <div class="ps-3">
+                                        <small class="fw-bold poppins">Maysha Samiha</small>
+                                        <br>
+                                        <small class="poppins">Motion Design</small>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 my-5 px-5">
-                    <div class="d-flex align-items-center justify-content-between">
-                        <img src="images/comma.png" alt="" class="img-fluid">
-                        <p class="star-color"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                class="fa-regular fa-star"></i></p>
-                    </div>
-                    <div class="poppins py-3 pe-3">
-                        <p class="poppins">There is a consistent relationship with achievement in class that is
-                            considered by
-                            researchers to reflect the fact that good teaching should lead to good learning and higher
-                            levels of satisfaction.
-                            Individual teacher ratings over time are consistent if the person has not taken specific
-                            improvement steps or received support for development.</p>
-                    </div>
-                    <div class="d-flex align-items-center">
-                        <div>
-                            <img src="images/student/student-2.png" alt="" width="42" height="42"
-                                class="img-fluid img-thumbnail rounded-circle">
-                        </div>
 
-                        <div class="ps-3">
-                            <small class="fw-bold poppins">Samira Akter</small>
-                            <br>
-                            <small class="poppins">UI Designer</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 my-5 px-5">
-                    <div class="d-flex align-items-center justify-content-between">
-                        <img src="images/comma.png" alt="" class="img-fluid">
-                        <p class="star-color"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                class="fa-regular fa-star"></i></p>
-                    </div>
-                    <div class="poppins py-3 pe-3">
-                        <p class="poppins">There is a consistent relationship with achievement in class that is
-                            considered by
-                            researchers to reflect the fact that good teaching should lead to good learning and higher
-                            levels of satisfaction.
-                            Individual teacher ratings over time are consistent if the person has not taken specific
-                            improvement steps or received support for development.</p>
-                    </div>
-                    <div class="d-flex align-items-center">
-                        <div>
-                            <img src="images/student/student-3.png" alt="" width="42" height="42"
-                                class="img-fluid img-thumbnail rounded-circle">
-                        </div>
-
-                        <div class="ps-3">
-                            <small class="fw-bold poppins">Tahsaan Al Tasrif</small>
-                            <br>
-                            <small class="poppins">Graphic Designer</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 my-5 px-5">
-                    <div class="d-flex align-items-center justify-content-between">
-                        <img src="images/comma.png" alt="" class="img-fluid">
-                        <p class="star-color"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                class="fa-regular fa-star"></i></p>
-                    </div>
-                    <div class="poppins py-3 pe-3">
-                        <p class="poppins">There is a consistent relationship with achievement in class that is
-                            considered by
-                            researchers to reflect the fact that good teaching should lead to good learning and higher
-                            levels of satisfaction.
-                            Individual teacher ratings over time are consistent if the person has not taken specific
-                            improvement steps or received support for development.</p>
-                    </div>
-                    <div class="d-flex align-items-center">
-                        <div>
-                            <img src="images/student/student-4.png" alt="" width="42" height="42"
-                                class="img-fluid img-thumbnail rounded-circle">
-                        </div>
-
-                        <div class="ps-3">
-                            <small class="fw-bold poppins">Maysha Samiha</small>
-                            <br>
-                            <small class="poppins">Motion Design</small>
-                        </div>
-                    </div>
-                </div>
-
-
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon bg-info color-light  rounded-circle ms-0 position-left"
+                        aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon bg-info color-light  rounded-circle ms-5 position-right"
+                        aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
+
+            <div class="text-center my-5 d-lg-none">
+                <button type="button" class="btn bg-color rounded px-4 ms-5 white poppins">View All</button>
+            </div>
+
         </section>
+
 
 
         <!-- Feedback section End  -->
 
 
         <!-- Frequently Asked Questions section start -->
-        <section class="container mt-5">
+        <section class="container my-5">
             <div class="text-center col-lg-8 mx-auto">
                 <h2 class="poppins fw-bold px-5 mt-3">Frequently Asked Questions</h2>
                 <p class="poppins px-5">It is a long established fact that a reader will be distracted by the readable
@@ -496,7 +580,7 @@
                     <h2 class="accordion-header" id="flush-headingOne">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                            <h4 class="poppins fw-bold pe-5">Q1: What does CSS mean and what is its definition?</h4>
+                            <h6 class="poppins fw-bold pe-5">Q1: What does CSS mean and what is its definition?</h6>
                         </button>
                     </h2>
                     <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
@@ -517,7 +601,7 @@
                     <h2 class="accordion-header" id="flush-headingTwo">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                            <h4 class="poppins fw-bold pe-5">Q2: What is Semantic Tag?</h4>
+                            <h6 class="poppins fw-bold pe-5">Q2: What is Semantic Tag?</h6>
                         </button>
                     </h2>
                     <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
@@ -540,7 +624,7 @@
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapseThree" aria-expanded="false"
                             aria-controls="flush-collapseThree">
-                            <h4 class="poppins fw-bold pe-5">Q3: What is CSS box model?</h4>
+                            <h6 class="poppins fw-bold pe-5">Q3: What is CSS box model?</h6>
                         </button>
                     </h2>
                     <div id="flush-collapseThree" class="accordion-collapse collapse"
@@ -563,8 +647,8 @@
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapseFour" aria-expanded="false"
                             aria-controls="flush-collapseFour">
-                            <h4 class="poppins fw-bold pe-5">Q4: What's the Difference between CSS Grid and CSS Flexbox?
-                            </h4>
+                            <h6 class="poppins fw-bold pe-5">Q4: What's the Difference between CSS Grid and CSS Flexbox?
+                            </h6>
                         </button>
                     </h2>
                     <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
@@ -599,9 +683,9 @@
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapseFive" aria-expanded="false"
                             aria-controls="flush-collapseFive">
-                            <h4 class="poppins fw-bold pe-5">Q5: What are the difference between Bootstrap Vs Tailwind
+                            <h6 class="poppins fw-bold pe-5">Q5: What are the difference between Bootstrap Vs Tailwind
                                 CSS?
-                            </h4>
+                            </h6>
                         </button>
                     </h2>
                     <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
@@ -632,8 +716,8 @@
 
 
         <!-- Trusted companies Section Start -->
-        <section class="Container my-5">
-            <h2 class=" poppins text-center fw-bold pt-5 my-5">Trusted by over 800+ companies</h2>
+        <section class="container my-5 d-lg-block d-none">
+            <h2 class="poppins text-center fw-bold pt-5 my-5">Trusted by over 800+ companies</h2>
             <div class="container d-flex justify-content-between">
                 <div><img src="images/company/company-1.png" alt="" class="img-fluid w-75"></div>
                 <div><img src="images/company/company-2.png" alt="" class="img-fluid w-75"></div>
@@ -659,11 +743,19 @@
 
             </div>
             <p class="text-center">
-                <i class="fa-brands fa-facebook me-3"></i>
-                <i class="fa-brands fa-twitter mx-3"></i>
-                <i class="fa-brands fa-linkedin mx-3">
-                    <i class="fa-brands fa-tiktok ms-4"></i>
-                </i>
+
+                <a href="https://www.facebook.com/groups/ledp.ictd" target="_blank" rel="noopener noreferrer"><i
+                        class="fa-brands fa-facebook me-3 white"></i></a>
+
+                <a href="https://twitter.com/freelancer" target="_blank" rel="noopener noreferrer"><i
+                        class="fa-brands fa-twitter mx-3 white"></i></a>
+
+                <a href="https://www.linkedin.com/company/proedututorials/" target="_blank" rel="noopener noreferrer"><i
+                        class="fa-brands fa-linkedin white mx-3"></i></a>
+
+                <a href="https://www.tiktok.com/login" target="_blank" rel="noopener noreferrer"><i
+                        class="fa-brands fa-tiktok ms-3 white"></i></a>
+
             </p>
 
             <div>
@@ -673,11 +765,6 @@
         <!-- Footer Section End  -->
 
     </footer>
-
-
-
-
-
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"

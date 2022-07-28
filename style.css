@@ -31,6 +31,14 @@
     background-color: #289BDE;
 }
 
+.text-color {
+    color: #289BDE;
+}
+
+.learning-bg {
+    background-color: #F4FAFD;
+}
+
 .position-left {
     position: absolute;
     left: -40px;

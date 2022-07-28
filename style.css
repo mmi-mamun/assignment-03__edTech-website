@@ -16,3 +16,10 @@
 }
 
 /* Header  */
+
+/* Footer */
+.footer-decoration {
+    background-color: #161616;
+    height: 472px;
+    min-height: 249px;
+}
